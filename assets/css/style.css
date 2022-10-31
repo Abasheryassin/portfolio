@@ -1,0 +1,41 @@
+:root {
+    --primary: ;
+    --secondary: ;
+}
+
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(38, 73, 50);
+    text-align: center;
+}
+
+header {
+    background-color: rgb(99, 32, 32);
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    font-size: 50px;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.card {
+    width: 100%;
+    height: 300px;
+    background-color: aquamarine;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer {
+    border-bottom: 0px;
+    display: block;
+    height: 50px;
+}
